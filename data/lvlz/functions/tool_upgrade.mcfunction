@@ -1,8 +1,8 @@
 #Poor
-execute as @a[scores={PickTier=!1..}] run scoreboard players set @s PickXPReq 20
-execute as @a[scores={PickTier=!1..}] if score @s PickXP > @s PickXPReq run title @s title [{"text": "Poor","color": "dark_gray"},{"text": " -> ","color": "gray"},{"text": "Common","color": "white"}]
-execute as @a[scores={PickTier=!1..}] if score @s PickXP > @s PickXPReq run function lvlz:tool_upgrades/pickaxe/common
-execute as @a[scores={PickTier=!1..}] if score @s PickXP > @s PickXPReq run scoreboard players set @s PickTier 1
+execute as @a[scores={PickTier=..0}] run scoreboard players set @s PickXPReq 20
+execute as @a[scores={PickTier=..0}] if score @s PickXP > @s PickXPReq run title @s title [{"text": "Poor","color": "dark_gray"},{"text": " -> ","color": "gray"},{"text": "Common","color": "white"}]
+execute as @a[scores={PickTier=..0}] if score @s PickXP > @s PickXPReq run function lvlz:tool_upgrades/pickaxe/common
+execute as @a[scores={PickTier=..0}] if score @s PickXP > @s PickXPReq run scoreboard players set @s PickTier 1
 execute as @a[scores={PickTier=1}] at @s run playsound minecraft:entity.player.levelup neutral @s ~ ~ ~ 1 0.7
 execute as @a[scores={PickTier=1}] run scoreboard players reset @s PickXP
 execute as @a[scores={PickTier=1}] run scoreboard players set @s PickTier 2
