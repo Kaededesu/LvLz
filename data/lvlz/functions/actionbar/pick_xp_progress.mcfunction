@@ -1,0 +1,1 @@
+title @s actionbar [{"score":{"name":"@s","objective":"PickXP"},"color":"green"},{"text":"/","color":"green"},{"score":{"name":"@s","objective":"PickXPReq"},"color":"green"},{"text":"xp","color": "green"}]

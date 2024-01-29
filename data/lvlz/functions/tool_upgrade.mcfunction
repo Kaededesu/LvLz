@@ -7,7 +7,7 @@ execute as @a[scores={PickTier=1}] at @s run playsound minecraft:entity.player.l
 execute as @a[scores={PickTier=1}] run scoreboard players reset @s PickXP
 execute as @a[scores={PickTier=1}] run scoreboard players set @s PickTier 2
 #Common
-execute as @a[scores={PickTier=2}] run scoreboard players set @s PickXPReq 64
+execute as @a[scores={PickTier=2}] run scoreboard players set @s PickXPReq 44
 execute as @a[scores={PickTier=2}] if score @s PickXP > @s PickXPReq run title @s title [{"text": "Poor","color": "white"},{"text": " -> ","color": "gray"},{"text": "Uncommon","color": "green"}]
 execute as @a[scores={PickTier=2}] if score @s PickXP > @s PickXPReq run function lvlz:tool_upgrades/pickaxe/uncommon
 execute as @a[scores={PickTier=2}] if score @s PickXP > @s PickXPReq run scoreboard players set @s PickTier 3
@@ -23,7 +23,7 @@ execute as @a[scores={PickTier=5}] at @s run playsound minecraft:entity.player.l
 execute as @a[scores={PickTier=5}] run scoreboard players reset @s PickXP
 execute as @a[scores={PickTier=5}] run scoreboard players set @s PickTier 6
 #Rare
-execute as @a[scores={PickTier=6}] run scoreboard players set @s PickXPReq 400
+execute as @a[scores={PickTier=6}] run scoreboard players set @s PickXPReq 500
 execute as @a[scores={PickTier=6}] if score @s PickXP > @s PickXPReq run title @s title [{"text": "Rare","color": "aqua"},{"text": " -> ","color": "gray"},{"text": "Epic","color": "light_purple"}]
 execute as @a[scores={PickTier=6}] if score @s PickXP > @s PickXPReq run function lvlz:tool_upgrades/pickaxe/epic
 execute as @a[scores={PickTier=6}] if score @s PickXP > @s PickXPReq run scoreboard players set @s PickTier 7
