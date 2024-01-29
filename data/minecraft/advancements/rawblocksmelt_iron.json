@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "minecraft:rawblocksmelt_iron"
+            }
+        }
+    },
+    "rewards": {
+        "function": "minecraft:rawblocksmelt_iron"
+    }
+}
