@@ -18,4 +18,5 @@ execute as @a[scores={PickMineNetherite=1..}] run scoreboard players add @s Pick
 execute as @a[scores={PickMineNetherite=1..}] run scoreboard players reset @s PickMineNetherite
 #gain xp
 execute as @a[scores={PickXPGain=1..}] run scoreboard players operation @s PickXP += @s PickXPGain
+execute as @a[scores={PickXPGain=1..}] run function lvlz:actionbar/pick_xp_progress
 execute as @a[scores={PickXPGain=1..}] run scoreboard players reset @s PickXPGain 
