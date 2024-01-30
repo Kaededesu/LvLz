@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:experience_bottle",
+        "nbt": "{Enchantments:[{}]}"
+      },
+      "title": {
+        "text": "♦ LvLz ♦",
+        "color": "yellow"
+      },
+      "description": {
+        "text": "`/Trigger Help` to get started.",
+        "color": "dark_purple"
+      },
+      "background": "minecraft:textures/block/cherry_log.png",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": true
+    },
+    "criteria": {
+      "impossible": {
+        "trigger": "minecraft:tick"
+      }
+    }
+  }
+  

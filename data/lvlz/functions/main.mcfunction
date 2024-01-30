@@ -1,4 +1,4 @@
-#this runs every tick
+#this runs every tick or 20 times per second
 
 #Help/guide
 scoreboard players enable @a Help

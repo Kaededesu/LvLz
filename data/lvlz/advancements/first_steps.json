@@ -1,0 +1,33 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:wooden_pickaxe",
+        "nbt": "{Enchantments:[{}]}"
+      },
+      "title": {
+        "text": "First Steps",
+        "color": "white"
+      },
+      "description": {
+        "text": "Craft a ",
+        "color": "white",
+        "extra": [
+          {
+            "text": "Poor Pickaxe",
+            "color": "gray",
+            "bold": true
+          }
+        ]
+      },
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": true
+    },
+    "parent": "lvlz:root",
+    "criteria": {
+      "tick": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

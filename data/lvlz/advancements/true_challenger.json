@@ -1,0 +1,28 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:wither_rose",
+        "nbt": "{Enchantments:[{}]}"
+      },
+      "title": {
+        "text": "True Challenger",
+        "color": "aqua",
+        "bold": true
+      },
+      "description": {
+        "text": "Upgrade your Mythic Pickaxe to +10 by killing the wither a total of 10 times.",
+        "color": "dark_red"
+      },
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "parent": "lvlz:pentakill",
+    "criteria": {
+      "tick": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

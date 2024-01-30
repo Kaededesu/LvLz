@@ -1,1 +1,1 @@
-title @s actionbar [{"score":{"name":"@s","objective":"PickXP"},"color":"green"},{"text":"/","color":"green"},{"score":{"name":"@s","objective":"PickXPReq"},"color":"green"},{"text":"xp","color": "green"}]
+title @s actionbar [{"text":"XP ","color": "white","bold": true},{"score":{"name":"@s","objective":"PickXP"},"color":"gray","bold": false},{"text":" | ","color":"dark_gray","bold": true},{"score":{"name":"@s","objective":"PickXPReq"},"color":"green","bold": false}]

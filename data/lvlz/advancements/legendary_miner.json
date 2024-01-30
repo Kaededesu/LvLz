@@ -1,0 +1,34 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:netherite_pickaxe",
+        "nbt": "{Enchantments:[{}]}"
+      },
+      "title": {
+        "text": "One legendary miner!",
+        "color": "light_purple"
+      },
+      "description": {
+        "text": "Level up to ",
+        "color": "white",
+        "extra": [
+          {
+            "text": "Legendary",
+            "color": "gold",
+            "bold": true
+          }
+        ]
+      },
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "parent": "lvlz:grind_begins",
+    "criteria": {
+      "tick": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

@@ -1,0 +1,26 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:iron_ore"
+      },
+      "title": "Upgrade Rare",
+      "description": {
+        "text": "Mine 250 blocks.",
+        "color": "gray"
+      },
+      "frame": "goal",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "lvlz:worth_a_fortune",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "rewards": {
+      "function": "lvlz:tool_upgrades/pickaxe/rare"
+    }
+  }
+  

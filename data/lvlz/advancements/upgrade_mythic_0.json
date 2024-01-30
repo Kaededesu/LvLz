@@ -1,0 +1,26 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:magma_block"
+      },
+      "title": "Upgrade Mythic",
+      "description": {
+        "text": "Mine 4000 blocks.",
+        "color": "gray"
+      },
+      "frame": "goal",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "lvlz:legendary_miner",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "rewards": {
+      "function": "lvlz:tool_upgrades/pickaxe/mythic_0"
+    }
+  }
+  

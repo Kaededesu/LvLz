@@ -1,0 +1,33 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:diamond_pickaxe",
+        "nbt": "{Enchantments:[{}]}"
+      },
+      "title": {
+        "text": "The grind begins.",
+        "color": "light_purple"
+      },
+      "description": {
+        "text": "Level up to ",
+        "color": "white",
+        "extra": [
+          {
+            "text": "Epic",
+            "color": "light_purple",
+            "bold": true
+          }
+        ]
+      },
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "parent": "lvlz:wasnt_that_hard",
+    "criteria": {
+      "tick": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

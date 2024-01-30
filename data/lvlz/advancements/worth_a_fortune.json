@@ -1,0 +1,33 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:stone_pickaxe",
+        "nbt": "{Enchantments:[{}]}"
+      },
+      "title": {
+        "text": "Worth a fortune!",
+        "color": "white"
+      },
+      "description": {
+        "text": "Level up to ",
+        "color": "white",
+        "extra": [
+          {
+            "text": "Uncommon",
+            "color": "green",
+            "bold": true
+          }
+        ]
+      },
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": true
+    },
+    "parent": "lvlz:getting_an_upgrade",
+    "criteria": {
+      "tick": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

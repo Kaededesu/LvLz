@@ -1,0 +1,26 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:coal_ore"
+      },
+      "title": "Upgrade Uncommon",
+      "description": {
+        "text": "Mine 100 blocks.",
+        "color": "gray"
+      },
+      "frame": "goal",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "lvlz:getting_an_upgrade",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "rewards": {
+      "function": "lvlz:tool_upgrades/pickaxe/uncommon"
+    }
+  }
+  

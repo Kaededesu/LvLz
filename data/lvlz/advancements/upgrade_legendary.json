@@ -1,0 +1,26 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:ancient_debris"
+      },
+      "title": "Upgrade legendary",
+      "description": {
+        "text": "Mine 2000 blocks.",
+        "color": "gray"
+      },
+      "frame": "goal",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "lvlz:grind_begins",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "rewards": {
+      "function": "lvlz:tool_upgrades/pickaxe/legendary"
+    }
+  }
+  

@@ -1,0 +1,33 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:stone_pickaxe",
+        "nbt": "{Enchantments:[{}]}"
+      },
+      "title": {
+        "text": "Getting an Upgrade",
+        "color": "white"
+      },
+      "description": {
+        "text": "Level up to ",
+        "color": "white",
+        "extra": [
+          {
+            "text": "Common",
+            "color": "white",
+            "bold": true
+          }
+        ]
+      },
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": true
+    },
+    "parent": "lvlz:first_steps",
+    "criteria": {
+      "tick": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

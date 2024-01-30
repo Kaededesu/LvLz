@@ -1,0 +1,33 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:iron_pickaxe",
+        "nbt": "{Enchantments:[{}]}"
+      },
+      "title": {
+        "text": "It wasn't that hard...",
+        "color": "white"
+      },
+      "description": {
+        "text": "Level up to ",
+        "color": "white",
+        "extra": [
+          {
+            "text": "Rare",
+            "color": "aqua",
+            "bold": true
+          }
+        ]
+      },
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": true
+    },
+    "parent": "lvlz:worth_a_fortune",
+    "criteria": {
+      "tick": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  
